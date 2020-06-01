@@ -1,0 +1,9 @@
+# Make sure the NATS string reflects accurately.
+
+natshost = "nats://your_host:4222"
+nats_subject = "logging"
+nats_name = "logging listener"
+nats_start_sequence = 0
+deliver_all = true
+deliver_last = false
+deliver_since = ""
